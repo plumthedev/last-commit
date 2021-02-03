@@ -14,6 +14,11 @@ abstract class AbstractRepository implements Contract
      */
     protected $client;
 
+    /**
+     * Platform repository name.
+     *
+     * @var string
+     */
     protected $name;
 
     /**
